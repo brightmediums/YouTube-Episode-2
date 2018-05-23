@@ -14,11 +14,14 @@ class ElementTableViewCell: UITableViewCell {
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var weightLabel: UILabel!
     
-    var element: [String:String]! {
+    var element: Element! {
         didSet {
-            self.symbolLabel.text   = element["symbol"]
-            self.nameLabel.text     = element["name"]
-            self.weightLabel.text   = element["weight"]
+            let formatter = NumberFormatter()
+            formatter.numberStyle = .decimal
+            formatter.minimumFractionDigits = 3
+            self.symbolLabel.text   = element.symbol
+            self.nameLabel.text     = element.name
+            self.weightLabel.text   = formatter.string(from: element.weight)
         }
     }
     override func awakeFromNib() {

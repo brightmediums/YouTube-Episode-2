@@ -13,6 +13,7 @@
 		00D6523E20ACDC5900D4B2C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D6523C20ACDC5900D4B2C3 /* LaunchScreen.storyboard */; };
 		00D6524620ACDC8100D4B2C3 /* ElementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6524520ACDC8100D4B2C3 /* ElementsTableViewController.swift */; };
 		00D6524820ACDC8D00D4B2C3 /* ElementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6524720ACDC8D00D4B2C3 /* ElementTableViewCell.swift */; };
+		00D6527020B09A2500D4B2C3 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D6526F20B09A2500D4B2C3 /* Element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		00D6523F20ACDC5900D4B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00D6524520ACDC8100D4B2C3 /* ElementsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsTableViewController.swift; sourceTree = "<group>"; };
 		00D6524720ACDC8D00D4B2C3 /* ElementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementTableViewCell.swift; sourceTree = "<group>"; };
+		00D6526F20B09A2500D4B2C3 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				00D6523F20ACDC5900D4B2C3 /* Info.plist */,
 				00D6524520ACDC8100D4B2C3 /* ElementsTableViewController.swift */,
 				00D6524720ACDC8D00D4B2C3 /* ElementTableViewCell.swift */,
+				00D6526F20B09A2500D4B2C3 /* Element.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				00D6524820ACDC8D00D4B2C3 /* ElementTableViewCell.swift in Sources */,
 				00D6524620ACDC8100D4B2C3 /* ElementsTableViewController.swift in Sources */,
+				00D6527020B09A2500D4B2C3 /* Element.swift in Sources */,
 				00D6523420ACDC5800D4B2C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
